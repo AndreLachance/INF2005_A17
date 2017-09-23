@@ -1,0 +1,5 @@
+20171 INF4170-50 Architecture des ordinateurs
+20171 INF2015-40 Developpement de logiciels dans un environnement Agile
+20172 INF5151-20 Genie logiciel : Analyse et modelisation
+20172 INF5153-20 Genie logiciel : Conception
+20173 INF2005-40 Programmation web
