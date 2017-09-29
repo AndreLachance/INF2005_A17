@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire d'admission OPI</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Formulaire d'admission à l'ordre professionnel d'informaticiennes et informaticiens</h1>
+	<p>Remplissez ce formulaire pour être admis à l'OPI. Veuillez remplir tous les champs.</p>
+	
+	<form action="formulaire.php" method="post">
+		<label for="nom">Nom</label>
+		<input type="text" id="nom" name="nom"  maxlength="40" size="20"><br>
+		<label for="prenom">Prénom</label>
+		<input type="text" id="prenom" name="prenom" maxlength="50" size="20"><br>
+		<label for="age">Âge</label>
+		<input type="text" id="age" name="age" maxlength="2" size="1"><br>
+		<label for="annee_diplome">Année de diplomation</label>
+		<input type="text" id="annee_diplome" name="annee_diplome" maxlength="4" size="3" placeholder="2009"><br>
+		<label for="universite">Établissement</label>
+		<select name="universite" id="universite">
+			<option value="concordia">Concordia University</option>
+			<option value="uqam">UQAM</option>
+			<option value="sherbrooke">Université de Sherbrooke</option>
+			<option value="udm">Université de Montréal</option>
+			<option value="mcgill">McGill University</option>
+			<option value="ets">École de technologie supérieure</option>
+			<option value="toronto">University of Toronto</option>
+			<option value="york">York University</option>	
+		</select><br>
+		<label for="programme">Programme</label>
+		<input type="text" id="programme" name="programme" maxlength="40" size="20"><br>
+		<button type="reset">Vider</button>
+		<button type="submit">Soumettre</button>
+	</form>
+
+</body>
+</html>
