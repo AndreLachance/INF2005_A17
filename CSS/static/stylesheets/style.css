@@ -1,0 +1,47 @@
+h1 {
+
+  color:red;
+  text-decoration: underline;
+  font-size: 1.5em;
+
+}
+
+.bleu {
+  color:blue;
+}
+
+.blanc {
+  color:#FFFFFF;
+  background: #000000;
+}
+
+.rouge {
+  color:rgb(255,0,0);
+}
+
+#nom {
+  font-weight: bold;
+}
+
+#nom:hover {
+  cursor: pointer;
+}
+
+p {
+  font-family: "Courier", "Times", "Arial" 
+}
+
+.marge {
+  margin-left: 20px;
+}
+
+.inputElement {
+  margin: 5px;
+  float: left;
+  width: 100%
+}
+
+.inputElement input {
+  width: 60%;
+  min-width: 180px;
+}
