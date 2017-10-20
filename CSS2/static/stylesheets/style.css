@@ -1,0 +1,84 @@
+
+/* 
+
+Début CSS Entete
+
+ */
+#entete {
+  margin:20px;
+}
+
+#entete > h1 {
+  font-size: 42px;
+  margin-left: 10%;
+  float: left;
+}
+
+#logo {
+  margin-right: 10%;
+  float: right;
+}
+
+#logo > img{
+  width: 60%;
+}
+
+#diviseurEntete {
+  width: 100%;
+}
+
+#logo > p {
+  font-style: italic;
+  font-size: smaller;
+}
+
+/* 
+
+Début CSS Articles
+
+ */
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.article {
+  text-align: justify;
+}
+
+.diviseurArticle {
+  width: 75%;
+}
+
+.auteur > p {
+  margin-top: 0px;
+}
+
+.auteur {  
+  font-style: italic;
+  font-size: smaller;
+}
+
+.texteArticle {
+  border-style: dashed;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+/* 
+
+Début CSS colonnes
+
+ */
+
+#conteneurArticles {
+  width: 72%;
+  float: left;
+  margin-left: 20px;
+}
+
+#listeArticles {
+  width: 25%;
+  float: right;
+}
